@@ -1644,11 +1644,10 @@
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/wasteland)
 "aNJ" = (
-/obj/machinery/door/airlock/medical/glass,
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/f13/followers)
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/item/flag/followers,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "aNU" = (
 /obj/item/reagent_containers/food/drinks/trophy/gold_cup,
 /obj/structure/displaycase,
@@ -6434,6 +6433,7 @@
 /obj/item/reagent_containers/hypospray/medipen/stimpak,
 /obj/item/reagent_containers/hypospray/medipen/stimpak,
 /obj/item/reagent_containers/hypospray/medipen/stimpak,
+/obj/item/reagent_containers/hypospray/medipen/stimpak,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
@@ -6745,6 +6745,7 @@
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
 	},
+/obj/effect/decal/cleanable/oil/slippery,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/building)
 "dvc" = (
@@ -10250,12 +10251,12 @@
 /turf/closed/mineral/random/low_chance,
 /area/f13/caves)
 "ffI" = (
-/obj/item/flag/followers,
-/obj/machinery/light{
-	dir = 4
+/obj/structure/spacevine{
+	name = "vines"
 	},
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/obj/structure/sign/departments/medbay,
+/turf/closed/wall/f13/supermart,
+/area/f13/followers)
 "ffL" = (
 /obj/structure/debris/v4,
 /obj/structure/simple_door/bunker,
@@ -18580,10 +18581,9 @@
 	},
 /area/f13/ncr)
 "jap" = (
-/obj/machinery/button{
+/obj/machinery/button/door{
 	id = "raiderhubarmory";
-	name = "shutter button";
-	pixel_x = 32
+	pixel_x = 25
 	},
 /turf/open/floor/f13{
 	icon_state = "floordirty"
@@ -26482,11 +26482,7 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "nel" = (
-/obj/machinery/light,
-/obj/machinery/hydroponics/soil/pot,
-/obj/structure/flora/ausbushes/genericbush{
-	pixel_y = 2
-	},
+/obj/machinery/door/airlock/medical/glass,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
@@ -32619,7 +32615,7 @@
 /obj/structure/sign/poster/official/cleanliness{
 	pixel_y = 32
 	},
-/obj/item/kirbyplants,
+/obj/structure/chair,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
@@ -33327,12 +33323,12 @@
 	},
 /area/f13/legion)
 "qze" = (
-/obj/structure/sign/departments/medbay,
-/obj/structure/spacevine{
-	name = "vines"
+/obj/item/flag/followers,
+/obj/machinery/light{
+	dir = 4
 	},
-/turf/closed/wall/f13/supermart,
-/area/f13/followers)
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "qzr" = (
 /mob/living/simple_animal/hostile/ghoul,
 /obj/effect/decal/cleanable/dirt,
@@ -34322,9 +34318,10 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vault1,
 /area/f13/building)
 "qUv" = (
-/obj/structure/sign/departments/medbay,
-/turf/closed/wall/f13/supermart,
-/area/f13/followers)
+/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "qUC" = (
 /obj/structure/fence{
 	dir = 1
@@ -35123,10 +35120,13 @@
 	},
 /area/f13/wasteland)
 "rsi" = (
-/obj/structure/flora/ausbushes/ywflowers,
-/obj/structure/flora/ausbushes/sparsegrass,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/obj/structure/chair{
+	dir = 4
+	},
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/followers)
 "rss" = (
 /obj/structure/barricade/wooden/strong,
 /obj/structure/decoration/rag,
@@ -35334,9 +35334,7 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "ryS" = (
-/obj/structure/chair{
-	dir = 4
-	},
+/obj/item/kirbyplants,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
@@ -44492,10 +44490,12 @@
 /turf/open/floor/carpet,
 /area/f13/building)
 "vTu" = (
-/obj/structure/flora/ausbushes/sparsegrass,
-/obj/item/flag/followers,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/obj/structure/sign/departments/medbay,
+/obj/structure/spacevine{
+	name = "vines"
+	},
+/turf/closed/wall/f13/supermart,
+/area/f13/followers)
 "vTz" = (
 /obj/structure/simple_door/house,
 /obj/effect/decal/cleanable/dirt{
@@ -81161,13 +81161,13 @@ mvv
 rjE
 qVV
 qDy
-vTu
-rsi
-mvv
-mwO
 mvv
 mvv
-ffI
+mvv
+mvv
+mvv
+mvv
+mvv
 mwO
 bbt
 sHm
@@ -81418,12 +81418,12 @@ pZS
 uqa
 qDJ
 mvv
-lMJ
+aNJ
 qUv
-syi
-aNJ
-aNJ
-syi
+mvv
+mwO
+mvv
+mvv
 qze
 dzq
 eiK
@@ -81675,13 +81675,13 @@ ozq
 fGC
 qDJ
 bbt
-lMJ
-qbS
-ryS
-taF
-taF
+ffI
+syi
+syi
+syi
+syi
 nel
-urw
+vTu
 lMJ
 lMJ
 urw
@@ -81933,10 +81933,10 @@ oGc
 oqA
 mvv
 lMJ
-poY
-taF
-taF
-taF
+qbS
+rsi
+rsi
+ryS
 taF
 kiH
 uMt
@@ -86041,7 +86041,7 @@ lws
 saf
 hQg
 mvv
-mvv
+bJT
 oiw
 iVA
 urw
